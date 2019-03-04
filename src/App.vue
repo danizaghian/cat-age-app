@@ -1,6 +1,8 @@
 <template>
   <div id="app">
     <div id="nav">
+      <router-link to="/">Cat age calulator for humans</router-link> | 
+      <router-link to="/hooman-age">Hooman age calculator for cats</router-link>
     </div>
     <router-view/>
   </div>
