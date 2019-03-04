@@ -5,7 +5,7 @@
     <input type="number" v-model="realAge">
 
     <div v-if="realAge">
-    	<h4>Your cat in human years is: {{ calculateCatAge }}</h4>
+    	<h4>Your hooman in cat years is: {{ calculateCatAge }}</h4>
     </div>
 
   </div>
