@@ -5,9 +5,10 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "start": "vue-cli-service start"
+    "start": "http-server -a localhost -p 8080 -c-1"
   },
   "dependencies": {
+    "express": "^4.16.4",
     "vue": "^2.6.6",
     "vue-router": "^3.0.1"
   },
