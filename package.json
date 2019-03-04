@@ -4,8 +4,7 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "start": "http-server -a localhost -p 8080 -c-1"
+    "build": "vue-cli-service build"
   },
   "dependencies": {
     "express": "^4.16.4",
